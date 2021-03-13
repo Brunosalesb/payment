@@ -19,6 +19,9 @@ namespace PaymentContext.Domain.Entities
             Document = document;
             Email = email;
             _subscription = new List<Subscription>();
+
+            //agrupar erros
+            AddNotifications(name, document, email);
         }
 
         //evitar usar muitos tipos primitivos, pois usando um value object, podemos criar regras, validacoes etc 
