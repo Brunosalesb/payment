@@ -10,8 +10,8 @@ namespace PaymentContext.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var subscription = new Subscription(DateTime.Now);
-            var student = new Student("Bruno", "Sales", "565507667", "brunaosales@gmail.com");
+            // var subscription = new Subscription(DateTime.Now);
+            // var student = new Student("Bruno", "Sales", "565507667", "brunaosales@gmail.com");
         }
     }
 }
