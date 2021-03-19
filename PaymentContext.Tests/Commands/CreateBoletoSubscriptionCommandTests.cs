@@ -13,6 +13,7 @@ namespace PaymentContext.Tests
         {
             var command = new CreateBoletoSubscriptionCommand();
             command.FirstName = "";
+            command.LastName = "Bernardes";
 
             command.Validate();
             Assert.AreEqual(false, command.Valid);
