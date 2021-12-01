@@ -1,4 +1,5 @@
 # payment
 
 
-Fundamentos da Orientação a Objetos - Balta.io
+Modelando Domínios Ricos - Balta.io
+https://github.com/balta-io/1975
